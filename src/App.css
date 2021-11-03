@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.firstLoadingOverlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.firstLoadingOverlay p {
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(./assets/img/world.jpg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  max-width: 900px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #ccc;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.form-container label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-right: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-container input {
+  /* width: 100%; */
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.form-container form {
+  margin-bottom: 15px;
 }

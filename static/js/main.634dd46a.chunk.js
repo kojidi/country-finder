@@ -1,2 +1,0 @@
-(this["webpackJsonpcountry-finder"]=this["webpackJsonpcountry-finder"]||[]).push([[0],{11:function(n,t,e){"use strict";e.r(t);var c=e(1),r=e.n(c),i=e(3),o=e.n(i),s=(e(8),e(9),e(0));var u=function(){return Object(s.jsx)("div",{className:"App"})};o.a.render(Object(s.jsx)(r.a.StrictMode,{children:Object(s.jsx)(u,{})}),document.getElementById("root"))},8:function(n,t,e){},9:function(n,t,e){}},[[11,1,2]]]);
-//# sourceMappingURL=main.634dd46a.chunk.js.map
